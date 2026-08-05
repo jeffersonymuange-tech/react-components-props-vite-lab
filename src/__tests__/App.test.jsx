@@ -1,10 +1,10 @@
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
-import App from "./App";
-import Header from "./components/Header";
-import About from "./components/About";
-import ArticleList from "./components/ArticleList";
-import Article from "./components/Article";
+import App from "../App.jsx";
+import Header from "../components/Header.jsx";
+import About from "../components/About.jsx";
+import ArticleList from "../components/ArticleList.jsx";
+import Article from "../components/Article.jsx";
 
 test("renders Header, About, and ArticleList", () => {
   render(<App />);
