@@ -1,26 +1,31 @@
-const blog = {
-  name: "Jordan's Corner",
+import logo from "./logo.svg";
 
-  about: {
-    image: "https://placehold.co/150x150?text=Blog+Logo",
-    description:
-      "Hi, I'm Jordan! I write about web development, life as a self-taught developer, and the occasional hiking trip.",
-  },
-
+const blogData = {
+  name: "Underreacted",
+  image: logo,
+  about: "A blog about learning React.",
   posts: [
     {
       id: 1,
-      title: "Why I Started Learning React",
-      date: "July 1, 2026",
-      preview: "A few months ago I decided to dive into React. Here's what pushed me to make the leap...",
+      title: "Components 101",
+      date: "December 15, 2020",
+      preview: "Setting up your first React components.",
+      minutes: 5,
     },
     {
       id: 2,
-      title: "Components, Props, and the Lightbulb Moment",
-      date: "July 15, 2026",
-      preview: "Understanding how data flows down through components finally clicked for me this week...",
+      title: "React Data Flow",
+      date: "December 11, 2020",
+      preview: "Passing props down to child components.",
+      minutes: 15,
+    },
+    {
+      id: 3,
+      title: "Function Components vs Class Components",
+      preview: "A look at modern function components.",
+      minutes: 47,
     },
   ],
 };
 
-export default blog;
+export default blogData;

@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import About from "./components/About";
 import ArticleList from "./components/ArticleList";
 import blogData from "./blog";
+import "./App.css";
 
 function App() {
   return (
