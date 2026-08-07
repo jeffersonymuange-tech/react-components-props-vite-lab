@@ -1,6 +1,6 @@
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
-import App from "../App.jsx";
+import App from "../components/App.jsx";
 import Header from "../components/Header.jsx";
 import About from "../components/About.jsx";
 import ArticleList from "../components/ArticleList.jsx";
